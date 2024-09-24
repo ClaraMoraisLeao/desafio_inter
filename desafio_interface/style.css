@@ -1,0 +1,46 @@
+.container {
+    display: flex;
+    flex-direction: column;
+
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    height: 100vh;
+}
+
+div {
+    background-color: white;
+}
+
+.container {
+    width: 400px;
+    height: 750px;
+    background-color: black;
+    border-radius: 15px;
+    align-items: center;
+    display: flex;
+    justify-content: center ;
+}
+
+a {
+    background-color: hsl(0, 0%, 12%); /*Para fazer quadradinho*/ 
+    width: 300px;
+    height: 60px;
+    color: white;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+img{
+    border-radius: 100%;
+}
+a:hover {
+    background-color: green;
+}
+
